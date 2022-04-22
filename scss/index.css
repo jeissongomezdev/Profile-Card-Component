@@ -13,4 +13,92 @@ html {
 body {
   font-family: "Kumbh Sans", sans-serif;
 }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 30vw bottom 50vh, left 45vw top 50vh;
+}
+
+.card {
+  background-color: white;
+  border-radius: 1.25rem;
+  max-width: 90%;
+  overflow: hidden;
+}
+
+.card__activity {
+  border-top: 1px solid #8b84842b;
+  padding: 2.3rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card__activity-social h4 {
+  font-size: 18px;
+  text-align: center;
+  color: #2d3248;
+}
+
+.card__activity-social p {
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 5px;
+  color: #6a6f81;
+}
+
+.card__img img {
+  width: 100%;
+}
+
+.card__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__info-img {
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-top: calc(-48px - 10px);
+}
+
+.card__info-text {
+  margin-top: 12px;
+  margin-bottom: 26px;
+  font-size: 1.4rem;
+  color: #6a6f81;
+}
+
+.card__info-title {
+  font-size: 18px;
+  margin-top: 2rem;
+  color: #2d3248;
+}
+
+.card__info-title span {
+  color: #969696;
+  font-weight: 400;
+}
 /*# sourceMappingURL=index.css.map */
